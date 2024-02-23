@@ -1,0 +1,49 @@
+
+
+{
+  "name": "Ajithkumar.A",
+  "title": "Full Stack Developer",
+  "contact": {
+    "email": "a.ajithkumar596@gmail.com",
+    "phone": "6379926472",
+    "address": "kanakkar street, karampakkudi(po),karampakkudi(tk),pudukkottai-622302
+  },
+  "summary": "Passionate Full Stack Developer with expertise in building end-to-end web applications. Proficient in both frontend and backend technologies, dedicated to delivering high-quality, scalable solutions.",
+  'education': [
+    {
+      "degree": "Master Of Computer Application",
+      "major": "Computer Application",
+      "college": "JJ college of arts and science pudukkottai",
+      "graduation_year": 2023
+    }
+  ],
+},
+
+  'skills': [
+    "JavaScript",
+    "React",
+    "Angular",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Git",
+    "HTML"
+  ],
+  'languages': ["Tamil"],["English"]
+
+  'certifications': [
+    {
+      "title": "Certified Full Stack Developer",
+      "authority": "Guvi",
+      "completion_date": "10,06,2024"
+    }
+  ],
+  {
+  'projects': [
+    {
+      "title": "Secure Login Using Honeyword Tecnique",
+      "description": "How to secure password to hackers",
+      "technologies": ["HTML", "Node.js", "CSS"]
+    },
+]
+}

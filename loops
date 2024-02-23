@@ -1,0 +1,33 @@
+const resumeData = {
+  name: "Ajithkumar.A",
+  title: "Full Stack Developer",
+};
+
+//'for' loop
+console.log("Using 'for' loop:");
+for (let key in resumeData) {
+  console.log(key, ":", resumeData[key]);
+}
+
+//'for in' loop
+console.log("\nUsing 'for in' loop:");
+for (let key in resumeData) {
+  if (resumeData.hasOwnProperty(key)) {
+    console.log(key, ":", resumeData[key]);
+  }
+}
+
+//'for of' loop for arrays (skills)
+console.log("\nUsing 'for of' loop for skills:");
+for (let skill of resumeData.skills) {
+  console.log(skill);
+}
+
+//'forEach' for arrays (projects)
+console.log("\nUsing 'forEach' for projects:");
+resumeData.projects.forEach((project, index) => {
+  console.log(`Project ${index + 1}:`);
+  for (let key in project) {
+    console.log(`  ${key}: ${project[key]}`);
+  }
+});
